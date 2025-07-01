@@ -17,13 +17,26 @@
   /* White */
   --white: #fafafa;
 
-  /* Typography Presets (single line) */
-  --font-family-display: "Red Hat Display", sans-serif;
-  --text-preset-1: 900 4rem/110% var(--font-family-display); /* 64px */
-  --text-preset-2: 900 2.5rem/110% var(--font-family-display); /* 40px */
-  --text-preset-3: 900 1rem/110% var(--font-family-display); /* 16px, 4px letter-spacing */
-  --text-preset-4: 500 1.125rem/110% var(--font-family-display); /* 18px */
-  --text-preset-5: 900 1rem/150% var(--font-family-display); /* 16px */
+  /* Font Families */
+  --font-family-red-hat: "Red Hat Display", sans-serif;
+
+  /* Font Weights */
+  --font-weight-black: 900;
+  --font-weight-medium: 500;
+
+  /* Font Sizes (in rem) */
+  --font-size-xxl: 4rem; /* 64px */
+  --font-size-xl: 2.5rem; /* 40px */
+  --font-size-md: 1.125rem; /* 18px */
+  --font-size-sm: 1rem; /* 16px */
+
+  /* Line Heights */
+  --line-height-tight: 110%;
+  --line-height-loose: 150%;
+
+  /* Letter Spacing */
+  --letter-spacing-none: 0px;
+  --letter-spacing-wide: 4px;
 
   /* Spacing Scale (rem) */
   --spacing-1400: 7rem; /* 112px */

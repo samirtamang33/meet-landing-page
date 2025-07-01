@@ -5,62 +5,22 @@
   justify-content: center;
   max-width: 375px;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 3rem var(--spacing-1000) 0 var(--spacing-1000);
-  background-color: var(--color-primary);
-}
+/* Tablet and up */
+/* @media (min-width: 768px) {
+  .main {
+    max-width: 700px;
+    padding: 2rem;
+  }
+} */
 
-.logo {
-  width: 100px;
-  height: auto;
-}
-
-.hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: var(--spacing-800) var(--spacing-400) var(--spacing-400)
-    var(--spacing-400);
-  max-width: 100%;
-  gap: 3rem;
-}
-
-.heroText {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-
-  gap: var(--spacing-300);
-}
-
-.heroTitle {
-  font: var(--text-preset-2);
-  font-weight: 900;
-  color: var(--slate-900);
-  text-align: center;
-}
-
-.heroSubtitle {
-  font: var(--text-preset-5);
-  font-weight: 500;
-  color: var(--slate-600);
-}
-
-.mainContent {
-  padding: var(--spacing-400) var(--spacing-400) var(--spacing-800)
-    var(--spacing-400);
-  max-width: 100%;
-}
-
-.imageGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
-  gap: var(--spacing-200);
-}
+/* Desktop and up */
+/* @media (min-width: 1440px) {
+  .main {
+    max-width: 1200px;
+    padding: 3rem;
+  }
+} */

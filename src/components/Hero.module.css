@@ -1,0 +1,45 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-800) var(--spacing-400) var(--spacing-400)
+    var(--spacing-400);
+  width: 100%;
+  gap: 3rem;
+  overflow: hidden;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: var(--spacing-300);
+}
+
+.heroTitle {
+  font-family: var(--font-family-red-hat);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-black);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-none);
+  color: var(--slate-900);
+  text-align: center;
+}
+
+.heroSubtitle {
+  font-family: var(--font-family-red-hat);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-loose);
+  letter-spacing: var(--letter-spacing-none);
+  color: var(--slate-600);
+}
+
+.heroButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-200);
+}
