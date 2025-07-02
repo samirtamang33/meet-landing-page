@@ -23,7 +23,6 @@
 }
 
 .circleLine {
-  width: 1px;
   height: 5rem;
-  border: 0.5px solid var(--slate-300);
+  border-left: 1px solid var(--slate-300);
 }

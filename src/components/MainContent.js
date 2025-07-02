@@ -31,6 +31,19 @@ const MainContent = () => (
         height={144}
       />
     </div>
+    <div className={styles.textContent}>
+      <div className={styles.title}>
+        <h2>Built for modern use</h2>
+        <h1>Smarter meetings, all in one place</h1>
+      </div>
+      <div className={styles.descriptions}>
+        <p>
+          Send messages, share files, show your screen, and record your meetings
+          — all in one workspace. Control who can join with invite-only team
+          access, data encryption, and data export.
+        </p>
+      </div>
+    </div>
   </div>
 );
 

@@ -1,6 +1,51 @@
-.footer {
-  padding: 2rem 0;
+.footerHero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.circleNumber {
+  position: relative;
+  z-index: 1;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-800) var(--spacing-400);
+  gap: var(--spacing-300);
+  background-color: var(--cyan-600);
+  font-family: var(--font-family-red-hat);
   text-align: center;
-  color: var(--slate-600);
-  font-size: 0.875rem;
+  position: relative;
+  top: -2rem;
+  z-index: 100;
+}
+
+.footerContent h1 {
+  font-size: 2rem;
+  color: var(--white);
+  font-weight: var(--font-weight-black);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-none);
+}
+
+.footerContent p {
+  font-size: var(--font-size-sm);
+  color: var(--white);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-loose);
+  letter-spacing: var(--letter-spacing-none);
+}
+
+.footerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerBtn {
+  width: 12.0625rem;
 }
