@@ -1,9 +1,7 @@
 .button {
   padding: var(--spacing-200) var(--spacing-500);
   border-radius: 1.8225rem;
-  width: 12.0625rem;
   height: 3.5rem;
-  background-color: var(--cyan-600); /* blue-600 */
   color: var(--white);
   font-family: var(--font-family-red-hat);
   font-size: var(--font-size-sm);
@@ -18,22 +16,27 @@
   justify-content: center;
   gap: 0.25rem;
 }
+
+.primary {
+  background-color: var(--cyan-600);
+  width: 12.0625rem;
+}
+.primary:hover {
+  background-color: #71c0d4;
+}
+
+.secondary {
+  background-color: var(--purple-600);
+  width: 10.0625rem;
+}
+.secondary:hover {
+  background-color: #b18bdd;
+}
+
 .button span {
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-black);
   line-height: var(--line-height-loose);
   letter-spacing: var(--letter-spacing-none);
   color: var(--cyan-300);
-}
-
-.button:hover {
-  background-color: #71c0d4;
-}
-
-.button.secondary {
-  background-color: var(--purple-600);
-  width: 10.0625rem;
-}
-.button.secondary:hover {
-  background-color: #b18bdd;
 }

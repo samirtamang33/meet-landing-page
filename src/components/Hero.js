@@ -18,7 +18,7 @@ const Hero = () => (
         collaborate across any device.
       </div>
       <div className={styles.heroButton}>
-        <Button>
+        <Button variant="primary">
           Download <span>v1.3</span>
         </Button>
         <Button variant="secondary">What is it?</Button>
