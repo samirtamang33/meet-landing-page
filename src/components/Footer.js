@@ -5,7 +5,7 @@ import Button from "./Button";
 const Footer = () => (
   <footer className={styles.footer}>
     <div className={styles.footerHero}>
-      <CircleNumber number="02" className={styles.CircleNumber} />
+      <CircleNumber number="02" className={styles.circleNumber} />
       <div className={styles.footerContent}>
         <h1>Experience more together</h1>
         <p>

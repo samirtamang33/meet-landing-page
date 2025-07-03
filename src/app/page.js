@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Button from "../components/Button";
 import Nav from "../components/Nav";
 import Hero from "../components/Hero";
 import MainContent from "../components/MainContent";
