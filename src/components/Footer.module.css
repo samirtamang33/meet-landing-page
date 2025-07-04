@@ -1,15 +1,17 @@
-.footerHero {
+.footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  overflow: visible;
+  width: 100%;
 }
 
-.circleNumber {
-  position: absolute;
-  z-index: 999;
+.footerHero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footerContent {
@@ -26,8 +28,7 @@
   background-position: center;
   font-family: var(--font-family-red-hat);
   text-align: center;
-  position: relative;
-  top: -2rem;
+  margin-top: -1.75rem;
 }
 
 .footerContent h1 {

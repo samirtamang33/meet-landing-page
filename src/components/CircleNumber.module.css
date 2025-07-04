@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .circle {
@@ -10,7 +11,7 @@
   height: 3.5rem;
   border-radius: 50%;
   border: 1px solid var(--slate-300);
-  background-color: transparent;
+  background-color: var(--white);
   display: flex;
   align-items: center;
   justify-content: center;
