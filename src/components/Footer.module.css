@@ -1,24 +1,9 @@
 .footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
   width: 100%;
 }
 
 .footerHero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footerContent {
-  display: flex;
-  flex-direction: column;
   padding: var(--spacing-800) var(--spacing-400);
-  gap: var(--spacing-300);
   background-image: linear-gradient(
       rgba(77, 150, 169, 0.85),
       rgba(77, 150, 169, 0.85)
@@ -29,6 +14,17 @@
   font-family: var(--font-family-red-hat);
   text-align: center;
   margin-top: -1.75rem;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-300);
+  max-width: 504px;
+  width: 100%;
 }
 
 .footerContent h1 {
@@ -55,4 +51,20 @@
 
 .footerBtn {
   width: 12.0625rem;
+}
+
+@media (min-width: 768px) {
+  .footerHero {
+    background-image: linear-gradient(
+        rgba(77, 150, 169, 0.85),
+        rgba(77, 150, 169, 0.85)
+      ),
+      url("/assets/tablet/image-footer.jpg");
+  }
+  .footerContent h1 {
+    font-size: var(--font-size-36);
+  }
+  .footerContent p {
+    font-size: var(--font-size-sm);
+  }
 }

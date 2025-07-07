@@ -27,8 +27,12 @@
   /* Font Sizes (in rem) */
   --font-size-xxl: 4rem; /* 64px */
   --font-size-xl: 2.5rem; /* 40px */
+  --font-size-lg: 3rem; /* 48px */
+  --font-size-base: 0.875rem; /* 14px */
   --font-size-md: 1.125rem; /* 18px */
   --font-size-sm: 1rem; /* 16px */
+  --font-size-xs: 0.75rem; /* 12px */
+  --font-size-36: 2.25rem; /* 36px */
 
   /* Line Heights */
   --line-height-tight: 110%;

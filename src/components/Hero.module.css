@@ -46,3 +46,18 @@
   justify-content: center;
   gap: var(--spacing-200);
 }
+
+@media (min-width: 768px) {
+  .heroText {
+    max-width: 448.3px;
+    width: 100%;
+  }
+
+  .heroTitle {
+    font-size: var(--font-size-lg);
+  }
+
+  .heroButton {
+    flex-direction: row;
+  }
+}

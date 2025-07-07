@@ -40,7 +40,7 @@
 }
 
 .title h2 {
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-xs);
   line-height: var(--line-height-tight);
   letter-spacing: var(--letter-spacing-wide);
   color: var(--cyan-600);
@@ -63,4 +63,22 @@
   line-height: var(--line-height-loose);
   letter-spacing: var(--letter-spacing-none);
   color: var(--slate-600);
+}
+
+@media (min-width: 768px) {
+  .imageGrid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-300);
+  }
+
+  .title h2 {
+    font-size: var(--font-size-base);
+  }
+  .title h1 {
+    font-size: var(--font-size-36);
+  }
+  .textContent {
+    max-width: 504px;
+    width: 100%;
+  }
 }
