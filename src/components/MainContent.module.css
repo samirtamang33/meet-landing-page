@@ -67,6 +67,7 @@
 
 @media (min-width: 768px) {
   .imageGrid {
+    display: flex;
     grid-template-columns: repeat(4, 1fr);
     gap: var(--spacing-300);
   }
