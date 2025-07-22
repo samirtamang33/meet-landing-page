@@ -15,9 +15,9 @@
 }
 
 /* Desktop and up */
-/* @media (min-width: 1440px) {
+@media (min-width: 1440px) {
   .main {
-    max-width: 1200px;
-    padding: 3rem;
+    max-width: 1440px;
+    width: 100%;
   }
-} */
+}
